@@ -1,0 +1,11 @@
+INSERT INTO company VALUES ('1', 'Facebook', 'c33367701511b4f6020ec61ded352059', 'Menlo Park', 'Internet');
+INSERT INTO company VALUES ('2', 'Amazon', 'f73903eaf7a382ccf4255b0918c64e2b', 'Seattle', 'Internet');
+INSERT INTO company VALUES ('3', 'AT&T', '31a78c8da4d015c529374d8cf1d37613', 'Dallas', 'Telecommunications');
+INSERT INTO company VALUES ('4', 'Bank of American', 'e1615b0229d2b631bc777f6f313b96a6', 'Charlotte', 'Banking');
+INSERT INTO company VALUES ('5', 'Chase', 'b7ba90c48b68e178d885899c06d271ac', 'New York', 'Financial Services');
+INSERT INTO company VALUES ('6', 'LinkedIn', '6c44e5cd17f0019c64b042e4a745412a', 'Sunnyvale', 'Internet');
+INSERT INTO company VALUES ('7', 'Google', 'a009d1b6599be4dd7aff23fc3630b093', 'Mountain View', 'Internet');
+INSERT INTO company VALUES ('8', 'Samsung', '8485cef7690fe55831e91fbdf40e2d0b', 'Ridgefield Park', 'Consumer Electronics');
+INSERT INTO company VALUES ('9', 'Dropbox', '22b9c67b9be990525f1d48ae1f67c80a', 'San Francisco', 'Internet');
+INSERT INTO company VALUES ('10', 'Oracle', 'cd8ba039102c08eccdf3facca9c4ab7c', 'Redwood Shores', 'Information Services');
+INSERT INTO company VALUES ('11', 'Huawei', '6d071901727aec1ba6d8e2497ef5b709', 'Beijing', 'Hardware & Software');

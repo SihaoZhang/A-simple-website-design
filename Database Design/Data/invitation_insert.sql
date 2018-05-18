@@ -1,0 +1,11 @@
+INSERT INTO invitation VALUES ('cd1234@nyu.edu', 'de1234@nyu.edu', '2017-04-09 01:43:43', 'Refuse', '1');
+INSERT INTO invitation VALUES ('cd1234@nyu.edu', 'fg1234@nyu.edu', '2018-03-11 02:43:43', 'Accept', '1');
+INSERT INTO invitation VALUES ('bc1234@nyu.edu', 'cd1234@nyu.edu', '2018-03-19 03:43:43', 'Refuse', '1');
+INSERT INTO invitation VALUES ('bc1234@nyu.edu', 'ij1234@nyu.edu', '2018-03-24 05:43:43', 'Accept', '1');
+INSERT INTO invitation VALUES ('de1234@nyu.edu', 'ij1234@nyu.edu', '2018-04-01 06:43:43', 'Accept', '1');
+INSERT INTO invitation VALUES ('ef1234@nyu.edu', 'cd1234@nyu.edu', '2018-04-11 07:43:43', 'Accept', '1');
+INSERT INTO invitation VALUES ('fg1234@nyu.edu', 'ef1234@nyu.edu', '2018-04-12 12:43:43', 'Refuse', '1');
+INSERT INTO invitation VALUES ('gh1234@nyu.edu', 'bc1234@nyu.edu', '2018-04-13 23:43:43', 'Accept', '1');
+INSERT INTO invitation VALUES ('jk1234@nyu.edu', 'cd1234@nyu.edu', '2018-04-16 22:43:43', 'Holding', '1');
+INSERT INTO invitation VALUES ('ef1234@nyu.edu', 'ab1234@nyu.edu', '2018-02-16 14:43:43', 'Holding', '1');
+INSERT INTO invitation VALUES ('de1234@nyu.edu', 'ab1234@nyu.edu', '2018-02-25 21:43:43', 'Holding', '1');

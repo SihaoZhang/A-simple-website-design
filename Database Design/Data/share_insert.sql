@@ -1,0 +1,10 @@
+INSERT INTO share VALUES ('cd1234@nyu.edu', 'fg1234@nyu.edu', '6', '2018-04-17 11:43:43', '1');
+INSERT INTO share VALUES ('cd1234@nyu.edu', 'fg1234@nyu.edu', '8', '2018-04-17 11:44:43', '1');
+INSERT INTO share VALUES ('cd1234@nyu.edu', 'fg1234@nyu.edu', '9', '2018-04-17 11:45:43', '1');
+INSERT INTO share VALUES ('cd1234@nyu.edu', 'ef1234@nyu.edu', '6', '2018-04-17 11:46:43', '1');
+INSERT INTO share VALUES ('cd1234@nyu.edu', 'ef1234@nyu.edu', '8', '2018-04-17 11:47:43', '1');
+INSERT INTO share VALUES ('cd1234@nyu.edu', 'ef1234@nyu.edu', '9', '2018-04-17 11:48:43', '1');
+INSERT INTO share VALUES ('bc1234@nyu.edu', 'ij1234@nyu.edu', '7', '2018-04-16 17:43:43', '1');
+INSERT INTO share VALUES ('gh1234@nyu.edu', 'bc1234@nyu.edu', '6', '2018-04-15 21:43:43', '1');
+INSERT INTO share VALUES ('gh1234@nyu.edu', 'bc1234@nyu.edu', '7', '2018-04-15 22:43:43', '1');
+INSERT INTO share VALUES ('ij1234@nyu.edu', 'de1234@nyu.edu', '7', '2018-04-15 20:43:43', '1');

@@ -1,0 +1,10 @@
+INSERT INTO friend VALUES ('cd1234@nyu.edu', 'fg1234@nyu.edu');
+INSERT INTO friend VALUES ('cd1234@nyu.edu', 'ef1234@nyu.edu');
+INSERT INTO friend VALUES ('bc1234@nyu.edu', 'ij1234@nyu.edu');
+INSERT INTO friend VALUES ('bc1234@nyu.edu', 'gh1234@nyu.edu');
+INSERT INTO friend VALUES ('de1234@nyu.edu', 'ij1234@nyu.edu');
+INSERT INTO friend VALUES ('ef1234@nyu.edu', 'cd1234@nyu.edu');
+INSERT INTO friend VALUES ('fg1234@nyu.edu', 'cd1234@nyu.edu');
+INSERT INTO friend VALUES ('gh1234@nyu.edu', 'bc1234@nyu.edu');
+INSERT INTO friend VALUES ('ij1234@nyu.edu', 'bc1234@nyu.edu');
+INSERT INTO friend VALUES ('ij1234@nyu.edu', 'de1234@nyu.edu');

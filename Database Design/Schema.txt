@@ -1,0 +1,99 @@
+#Sihao Zhang 2018-05-18
+
+CREATE TABLE student(
+sid VARCHAR(20) NOT NULL,
+spwd VARCHAR(50) NOT NULL,
+sname VARCHAR(50) NOT NULL,
+university VARCHAR(50),
+major VARCHAR(50),
+GPA DECIMAL(3,1),
+sinfo VARCHAR(500),
+resume VARCHAR(50),
+open int(1),
+PRIMARY KEY (sid));
+
+CREATE TABLE company(
+cid int(20) NOT NULL,
+cname VARCHAR(50) NOT NULL,
+cpwd VARCHAR(50) NOT NULL,
+clocation VARCHAR(50) ,
+industry VARCHAR(20) ,
+PRIMARY KEY (cid));
+
+CREATE TABLE job(
+jid int(10) NOT NULL,
+cid int(20) NOT NULL,
+jtitle VARCHAR(100) NOT NULL,
+jlocation VARCHAR(50) NOT NULL,
+salary VARCHAR(20) NOT NULL,
+req VARCHAR(20) NOT NULL, 
+description VARCHAR(500) NOT NULL,
+postdate DATE NOT NULL,
+duedate DATE NOT NULL,
+PRIMARY KEY (jid),
+FOREIGN KEY (cid) REFERENCES company(cid));
+
+CREATE TABLE friend(
+sid VARCHAR(20) NOT NULL,
+fid VARCHAR(20) NOT NULL,
+PRIMARY KEY (sid, fid),
+FOREIGN KEY (sid) REFERENCES student(sid),
+FOREIGN KEY (fid) REFERENCES student(sid));
+
+
+CREATE TABLE invitation(
+sid VARCHAR(20) NOT NULL,
+iid VARCHAR(20) NOT NULL,
+invitetime DATETIME NOT NULL,
+status VARCHAR(10) NOT NULL,
+know INT(1) NOT NULL,
+PRIMARY KEY (sid, iid, invitetime),
+FOREIGN KEY (sid) REFERENCES student(sid),
+FOREIGN KEY (iid) REFERENCES student(sid));
+
+CREATE TABLE follow(
+sid VARCHAR(20) NOT NULL,
+cid int(20) NOT NULL,
+PRIMARY KEY (sid, cid),
+FOREIGN KEY (sid) REFERENCES student(sid),
+FOREIGN KEY (cid) REFERENCES company(cid));
+
+CREATE TABLE message(
+sid VARCHAR(20) NOT NULL,
+fid VARCHAR(20) NOT NULL,
+mcontent VARCHAR(140) NOT NULL,
+mtime DATETIME NOT NULL,
+know INT(1) NOT NULL,
+PRIMARY KEY (sid, fid, mtime),
+FOREIGN KEY (sid) REFERENCES student(sid),
+FOREIGN KEY (fid) REFERENCES student(sid));
+
+CREATE TABLE share(
+sid VARCHAR(20) NOT NULL,
+fid VARCHAR(20) NOT NULL,
+jid int(10) NOT NULL,
+sharetime DATETIME NOT NULL,
+know INT(1) NOT NULL,
+PRIMARY KEY (sid, fid, jid, sharetime),
+FOREIGN KEY (sid) REFERENCES student(sid),
+FOREIGN KEY (fid) REFERENCES student(sid),
+FOREIGN KEY (jid) REFERENCES job(jid));
+
+CREATE TABLE application(
+sid VARCHAR(20) NOT NULL,
+jid int(10) NOT NULL,
+applytime DATETIME,
+status VARCHAR(20),
+PRIMARY KEY (sid, jid, applytime),
+FOREIGN KEY (sid) REFERENCES student(sid),
+FOREIGN KEY (jid) REFERENCES job(jid));
+
+
+CREATE TABLE jobpush(
+jid int(10) NOT NULL,
+sid VARCHAR(20) NOT NULL,
+posttime DATETIME NOT NULL,
+know INT(1) NOT NULL,
+PRIMARY KEY (sid, jid, posttime),
+FOREIGN KEY (sid) REFERENCES student(sid),
+FOREIGN KEY (jid) REFERENCES job(jid));

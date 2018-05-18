@@ -1,0 +1,10 @@
+INSERT INTO student VALUES ('ab1234@nyu.edu', '123456', 'Susan', 'NYU', 'MS EE', '3.6', 'database system & Python & Php & Html & Javascript','http://www.baidu.com','1');
+INSERT INTO student VALUES ('bc1234@nyu.edu', '345678', 'John', 'NYU', 'PHD EE', '3.5', 'database system & Python & Php & Html & Javascript','http://www.baidu.com','0');
+INSERT INTO student VALUES ('cd1234@nyu.edu', '567890', 'Yifeng', 'CMU', 'MS CS', '3.7', 'C++ & Python & Php & Html & Javascript','http://www.google.com','1');
+INSERT INTO student VALUES ('de1234@nyu.edu', '7890jq', 'Sihao', 'NYU', 'MS CS', '3.2', 'Python & Javascript','http://www.baidu.com','0');
+INSERT INTO student VALUES ('ef1234@nyu.edu', '90jqk1', 'Gaga', 'NYU', 'PHD EE', '3.1', 'Python & Database system','http://www.github.com','1');
+INSERT INTO student VALUES ('fg1234@nyu.edu', 'jqk123', 'Tom', 'NYU', 'MS EE', '3.3', 'Python & Php & Html & Javascript','http://www.baidu.com','0');
+INSERT INTO student VALUES ('gh1234@nyu.edu', 'k12345', 'Jack', 'NYU', 'PHD CS', '3.9', 'Python & Php & Html','http://www.facebook.com','1');
+INSERT INTO student VALUES ('hi1234@nyu.edu', '234567', 'Rose', 'NYU', 'MS EE', '3.7', 'Database system & Javascript','http://www.baidu.com','0');
+INSERT INTO student VALUES ('ij1234@nyu.edu', '456789', 'Timberlark', 'NYU', 'MS CS', '3.8', 'Php & Html & Javascript','http://www.baidu.com','0');
+INSERT INTO student VALUES ('jk1234@nyu.edu', '67890j', 'Taylor', 'NYU', 'MS MFE', '4.0', 'R & Python','http://www.baidu.com','1');
